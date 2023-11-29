@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz App</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="quiz-heading">
+        <h1>Quiz App</h1>
+        <h1 class="timer">timer</h1>
+      </div>
+      
+      <div class="question-container">
+      <h1 class="question">what is js</h1>
+      </div>
+      <div class="option-container">
+        <div class="option1 options">
+          <span>1)</span> <input type="radio" id="opt1"  name="opt">
+          <label for="opt1" class="opt" >Option 1</label>
+        </div>
+        <div class="option2 options">
+          <span>2)</span> <input type="radio" id="opt2" name="opt">
+          <label for="opt2" class="opt" >Option 1</label>
+        </div>
+        <div class="option3 options">
+          <span>3)</span> <input type="radio" id="opt3"  name="opt">
+          <label for="opt3" class="opt" >Option 1</label>
+        </div>
+        <div class="option4 options">
+         <span>4)</span> <input type="radio" id="opt4" name="opt">
+          <label for="opt4" class="opt" >Option 1</label>
+        </div>
+      </div>
+      <div class="btn-container">
+      <button id="submit">Submit</button>
+      <button id="show-result">show result</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="result-card">
+      <h1 class="congrats">congragulations</h1>
+      <div class="right-answer-container">
+      <span class="right-ans-text">Right Answers</span><span class="score">0</span>
+    </div>
+    <h1>Percentage <span class="percentage">10%</span></h1>
+    <div class="passed-container">
+    <h1 class="passed">Passed</h1>
+  </div>
+    </div>
+  </body>
+</html>
